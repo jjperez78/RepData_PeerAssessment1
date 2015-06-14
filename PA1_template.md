@@ -47,7 +47,7 @@ Some task should be done  before to start the analysis:
   
 
 ```r
-knitr::opts_knit$set(echo=TRUE, results="asis", progress = TRUE, verbose = TRUE, fig.width = 15, fig.height = 8)
+knitr::opts_knit$set(echo=TRUE, progress = TRUE, verbose = TRUE, fig.width = 15, fig.height = 8)
 ```
   
 2 **Remeber** to download and unzip the data from this **[link]**(https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip) into your working directory. You can use this code:  
