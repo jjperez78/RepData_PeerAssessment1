@@ -81,7 +81,7 @@ activity <- read.csv("activity.csv")
 As explained in the introduction, I expected "activity" to have three columns: steps, date and interval  
   
 ```{r headactivity}
-head(activity)
+knit_print(head(activity))
 ```
   
   

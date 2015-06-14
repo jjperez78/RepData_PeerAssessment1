@@ -86,7 +86,7 @@ As explained in the introduction, I expected "activity" to have three columns: s
   
 
 ```r
-head(activity)
+knit_print(head(activity))
 ```
 
   steps       date interval
